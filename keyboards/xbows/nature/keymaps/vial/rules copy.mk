@@ -17,7 +17,7 @@ LTO_ENABLE = yes
 # hold shift will output tilde ~
 # hold win/command key will output backtick `
 # Disabling it frees 140 b
-GRAVE_ESC_ENABLE = no  #yes
+GRAVE_ESC_ENABLE = yes
 
 
 # N-key rollover
@@ -34,7 +34,7 @@ EXTRAKEY_ENABLE = yes
 # https://docs.qmk.fm/#/feature_space_cadet
 # Combine ctrl/shift/alt and () to one key, e.g., Left Shift when held, ( when tapped
 # Disabling it frees 380 bytes
-SPACE_CADET_ENABLE = no  #yes
+SPACE_CADET_ENABLE = yes
 
 
 # https://docs.qmk.fm/#/keycodes_magic
@@ -45,13 +45,12 @@ MAGIC_ENABLE = yes
 # https://docs.qmk.fm/#/feature_mouse_keys
 # Mouse keys
 # Disabling it frees 1350 bytes
-MOUSEKEY_ENABLE = no  #yes
+MOUSEKEY_ENABLE = yes
 
 
 # https://docs.qmk.fm/#/feature_key_overrides
 # We won't use key override feature.
 # Disabling it frees 2000 bytes
-# PQ: can have only 3 layers + key overrides :( on my xbows nature.
 KEY_OVERRIDE_ENABLE = no
 
 
@@ -68,7 +67,7 @@ TAP_DANCE_ENABLE = no
 # https://docs.qmk.fm/#/feature_combo
 # E.g. tap D and F within 500ms will give Esc
 # Disabling it frees 2500 bytes
-COMBO_ENABLE = yes
+COMBO_ENABLE = no
 
 
 # Configure more QMK setting.

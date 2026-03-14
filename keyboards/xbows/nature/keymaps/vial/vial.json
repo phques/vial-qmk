@@ -3,6 +3,20 @@
   "vendorId": "0x5842",
   "productId": "0x4E61",
   "lighting": "none",
+    "customKeycodes": [
+        {"name": "SendStringCap",
+        "title": "1: philippe",
+        "shortName": "SSCAP_1"
+        },
+        {"name": "SendStringCap",
+        "title": "2: quesnel",
+        "shortName": "SSCAP_2"
+        },
+        {"name": "Send Macro",
+        "title": "1",
+        "shortName": "SMAC_1"
+        }
+    ],
   "matrix": { "rows": 6, "cols": 15 },
   "layouts": {
     "keymap": [
